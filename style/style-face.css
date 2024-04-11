@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Ocultar barra scroll*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.facebook{
+    background-image: url(../image/tela-facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.github{
+    background-image: url(../image/tela-github.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.twitter{
+    background-image: url(../image/tela-twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.instagram{
+    background-image: url(../image/tela-instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.youtube{
+    background-image: url(../image/tela-youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.home{
+    background-image: url(../image/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
+}
+
+.botao{
+    position: relative;
+    background-color: darkred;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.botao > a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.botao > a:hover{
+    color: rgb(177, 98, 98);
+}
